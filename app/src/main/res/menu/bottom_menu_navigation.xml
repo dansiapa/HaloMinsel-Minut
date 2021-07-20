@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beranda"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Beranda"/>
+    <item
+        android:id="@+id/tentang"
+        android:icon="@drawable/ic_baseline_insert_drive_file_24"
+        android:title="Tentang"/>
+
+    <item
+        android:id="@+id/tatacara"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        android:title="Tata Cara"/>
+
+</menu>

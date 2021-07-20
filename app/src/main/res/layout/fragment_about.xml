@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.AboutFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_upper">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_berandaup">
+        <TextView
+            android:id="@+id/title_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Laporan Masyarakat"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:letterSpacing="0.03"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_below="@id/title_up"
+            android:id="@+id/title_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabupaten Minahasa Selatan"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="65dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/halominsel_circle" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_berandaup"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/square_rounded_white">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/halominsel_landscape" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HALO MINSEL"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="80dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/atas1"
+                />
+            <TextView
+                android:id="@+id/atas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adalah layanan laporan online untuk"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="80dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/atas3"
+                android:layout_below="@id/atas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="masyarakat, warga Kabupaten Minahasa Selatan."
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/atas4"
+                android:layout_below="@+id/atas3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layanan ini dimaksudkan agar warga di seluruh
+                Kelurahan/Desa dan Kecamatan di Kabupaten Minahasa Selatan bisa turut andil dalam membangun Kabupaten Minahasa Selatan menjadi lebih baik."
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/atas5"
+                android:layout_below="@id/atas4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATA DIRI ANDA DIJAMIN AMAN. ANDA TIDAK PERLU RAGU UNTUK MENYAMPAIKAN LAPORAN"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>

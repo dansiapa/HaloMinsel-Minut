@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.AboutFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_upper">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_berandaup">
+            <TextView
+                android:id="@+id/title_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi Laporan Masyarakat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:letterSpacing="0.03"
+                android:textSize="20sp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:layout_below="@id/title_up"
+                android:id="@+id/title_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kabupaten Minahasa Selatan"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="65dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/halominsel_circle" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_berandaup"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/square_rounded_white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mari sama sama bangun torang pe Daerah"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laporkan permasalahan sekitar kepada Halo Minsel"
+                android:layout_marginLeft="15dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                />
+
+            <RelativeLayout
+                android:id="@+id/kirim_laporan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/square_rounded_pink">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:id="@+id/kirim"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/kirim"
+                    android:layout_marginLeft="20dp"
+                    android:text="LAPORAN"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/primary_upper"/>
+
+                <ImageView
+                    android:layout_width="167dp"
+                    android:layout_height="103dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/send"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pantau_laporan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/square_rounded_pink">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pantau"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Pantau"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:textColor="@color/primary_upper"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="Proses Laporan"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="50dp"
+                    android:layout_below="@+id/pantau"/>
+
+                <ImageView
+                    android:layout_width="167dp"
+                    android:layout_height="103dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/monitoring"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bottomText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anda juga dapat menyampaikan laporan"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:id="@+id/bottomText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="melalui SMS atau WhatsApp di nomor : 08xxxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
